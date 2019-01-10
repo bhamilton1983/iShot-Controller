@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44FA438AF81B096CE0644802 /* Pods_iShot_Controller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F08F4D165B51CCBF01316D8 /* Pods_iShot_Controller.framework */; };
 		4EB603D321E78EB800150F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603D221E78EB800150F8C /* AppDelegate.swift */; };
 		4EB603D521E78EB800150F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603D421E78EB800150F8C /* ViewController.swift */; };
-		4EB603D821E78EB800150F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB603D621E78EB800150F8C /* Main.storyboard */; };
 		4EB603DA21E78EB900150F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB603D921E78EB900150F8C /* Assets.xcassets */; };
 		4EB603DD21E78EB900150F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB603DB21E78EB900150F8C /* LaunchScreen.storyboard */; };
+		4EB603E521E78EC100150F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB603E421E78EC100150F8C /* Main.storyboard */; };
+		4EB603E921E78EE200150F8C /* vlcWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603E821E78EE200150F8C /* vlcWrapper.m */; };
+		4EB603EB21E78FD900150F8C /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 4EB603EA21E78FD900150F8C /* Classes */; };
+		4EB603ED21E78FEB00150F8C /* BottomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603EC21E78FEB00150F8C /* BottomController.swift */; };
+		4EB603EF21E78FF300150F8C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603EE21E78FF300150F8C /* MainVC.swift */; };
+		4EB6040221E790F200150F8C /* VideoInput Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F021E790F000150F8C /* VideoInput Class.swift */; };
+		4EB6040321E790F200150F8C /* H264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F121E790F000150F8C /* H264.swift */; };
+		4EB6040421E790F200150F8C /* z3Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F221E790F000150F8C /* z3Camera.swift */; };
+		4EB6040521E790F200150F8C /* z3Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F321E790F000150F8C /* z3Request.swift */; };
+		4EB6040621E790F200150F8C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F421E790F000150F8C /* Login.swift */; };
+		4EB6040721E790F200150F8C /* Sensor Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F521E790F000150F8C /* Sensor Class.swift */; };
+		4EB6040821E790F200150F8C /* BasicCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F621E790F000150F8C /* BasicCommands.swift */; };
+		4EB6040921E790F200150F8C /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F721E790F000150F8C /* ZoomViewController.swift */; };
+		4EB6040A21E790F200150F8C /* CamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603F821E790F100150F8C /* CamController.swift */; };
+		4EB6040C21E790F200150F8C /* Extension_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603FA21E790F100150F8C /* Extension_String.swift */; };
+		4EB6040D21E790F200150F8C /* CameraClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603FB21E790F100150F8C /* CameraClass.swift */; };
+		4EB6040E21E790F200150F8C /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603FC21E790F100150F8C /* HttpService.swift */; };
+		4EB6040F21E790F200150F8C /* Z3ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603FD21E790F100150F8C /* Z3ZoomViewController.swift */; };
+		4EB6041021E790F200150F8C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603FE21E790F100150F8C /* LoadingView.swift */; };
+		4EB6041121E790F200150F8C /* ZoomParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB603FF21E790F100150F8C /* ZoomParser.swift */; };
+		4EB6041221E790F200150F8C /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6040021E790F100150F8C /* InfoController.swift */; };
+		4EB6041321E790F200150F8C /* LoginTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6040121E790F200150F8C /* LoginTable.swift */; };
+		4EB6041521E7912500150F8C /* Global Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB6041421E7912500150F8C /* Global Variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EB603CF21E78EB800150F8C /* iShot Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iShot Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB603D221E78EB800150F8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB603D421E78EB800150F8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4EB603D721E78EB800150F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EB603D921E78EB900150F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EB603DC21E78EB900150F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EB603DE21E78EB900150F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB603E421E78EC100150F8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4EB603E621E78EE100150F8C /* iShot Controller-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iShot Controller-Bridging-Header.h"; sourceTree = "<group>"; };
+		4EB603E721E78EE200150F8C /* vlcWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vlcWrapper.h; sourceTree = "<group>"; };
+		4EB603E821E78EE200150F8C /* vlcWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vlcWrapper.m; sourceTree = "<group>"; };
+		4EB603EA21E78FD900150F8C /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		4EB603EC21E78FEB00150F8C /* BottomController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomController.swift; sourceTree = "<group>"; };
+		4EB603EE21E78FF300150F8C /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4EB603F021E790F000150F8C /* VideoInput Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoInput Class.swift"; sourceTree = "<group>"; };
+		4EB603F121E790F000150F8C /* H264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H264.swift; sourceTree = "<group>"; };
+		4EB603F221E790F000150F8C /* z3Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z3Camera.swift; sourceTree = "<group>"; };
+		4EB603F321E790F000150F8C /* z3Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = z3Request.swift; sourceTree = "<group>"; };
+		4EB603F421E790F000150F8C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		4EB603F521E790F000150F8C /* Sensor Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sensor Class.swift"; sourceTree = "<group>"; };
+		4EB603F621E790F000150F8C /* BasicCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCommands.swift; sourceTree = "<group>"; };
+		4EB603F721E790F000150F8C /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		4EB603F821E790F100150F8C /* CamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamController.swift; sourceTree = "<group>"; };
+		4EB603FA21E790F100150F8C /* Extension_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_String.swift; sourceTree = "<group>"; };
+		4EB603FB21E790F100150F8C /* CameraClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraClass.swift; sourceTree = "<group>"; };
+		4EB603FC21E790F100150F8C /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		4EB603FD21E790F100150F8C /* Z3ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z3ZoomViewController.swift; sourceTree = "<group>"; };
+		4EB603FE21E790F100150F8C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4EB603FF21E790F100150F8C /* ZoomParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomParser.swift; sourceTree = "<group>"; };
+		4EB6040021E790F100150F8C /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		4EB6040121E790F200150F8C /* LoginTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTable.swift; sourceTree = "<group>"; };
+		4EB6041421E7912500150F8C /* Global Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Global Variables.swift"; path = "../../iShot/Classes/Global Variables.swift"; sourceTree = "<group>"; };
+		5F08F4D165B51CCBF01316D8 /* Pods_iShot_Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iShot_Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911FC3A997AC880705A11433 /* Pods-iShot Controller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iShot Controller.release.xcconfig"; path = "Pods/Target Support Files/Pods-iShot Controller/Pods-iShot Controller.release.xcconfig"; sourceTree = "<group>"; };
+		A5820002505D9E103EA8D7D2 /* Pods-iShot Controller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iShot Controller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iShot Controller/Pods-iShot Controller.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44FA438AF81B096CE0644802 /* Pods_iShot_Controller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187DC0AC787EE9216C5EA4F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F08F4D165B51CCBF01316D8 /* Pods_iShot_Controller.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4EB603C621E78EB800150F8C = {
 			isa = PBXGroup;
 			children = (
+				4EB603E721E78EE200150F8C /* vlcWrapper.h */,
+				4EB603E821E78EE200150F8C /* vlcWrapper.m */,
+				4EB603EA21E78FD900150F8C /* Classes */,
 				4EB603D121E78EB800150F8C /* iShot Controller */,
 				4EB603D021E78EB800150F8C /* Products */,
+				4EB603E621E78EE100150F8C /* iShot Controller-Bridging-Header.h */,
+				BFC6F4B5C7AA0C770324FBD4 /* Pods */,
+				187DC0AC787EE9216C5EA4F9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +119,43 @@
 		4EB603D121E78EB800150F8C /* iShot Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4EB603F621E790F000150F8C /* BasicCommands.swift */,
+				4EB603F821E790F100150F8C /* CamController.swift */,
+				4EB603FB21E790F100150F8C /* CameraClass.swift */,
+				4EB603FA21E790F100150F8C /* Extension_String.swift */,
+				4EB603F121E790F000150F8C /* H264.swift */,
+				4EB603FC21E790F100150F8C /* HttpService.swift */,
+				4EB6040021E790F100150F8C /* InfoController.swift */,
+				4EB603FE21E790F100150F8C /* LoadingView.swift */,
+				4EB6041421E7912500150F8C /* Global Variables.swift */,
+				4EB603F421E790F000150F8C /* Login.swift */,
+				4EB6040121E790F200150F8C /* LoginTable.swift */,
+				4EB603F521E790F000150F8C /* Sensor Class.swift */,
+				4EB603F021E790F000150F8C /* VideoInput Class.swift */,
+				4EB603F221E790F000150F8C /* z3Camera.swift */,
+				4EB603F321E790F000150F8C /* z3Request.swift */,
+				4EB603FD21E790F100150F8C /* Z3ZoomViewController.swift */,
+				4EB603FF21E790F100150F8C /* ZoomParser.swift */,
+				4EB603F721E790F000150F8C /* ZoomViewController.swift */,
 				4EB603D221E78EB800150F8C /* AppDelegate.swift */,
+				4EB603EE21E78FF300150F8C /* MainVC.swift */,
 				4EB603D421E78EB800150F8C /* ViewController.swift */,
-				4EB603D621E78EB800150F8C /* Main.storyboard */,
+				4EB603EC21E78FEB00150F8C /* BottomController.swift */,
+				4EB603E421E78EC100150F8C /* Main.storyboard */,
 				4EB603D921E78EB900150F8C /* Assets.xcassets */,
 				4EB603DB21E78EB900150F8C /* LaunchScreen.storyboard */,
 				4EB603DE21E78EB900150F8C /* Info.plist */,
 			);
 			path = "iShot Controller";
+			sourceTree = "<group>";
+		};
+		BFC6F4B5C7AA0C770324FBD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5820002505D9E103EA8D7D2 /* Pods-iShot Controller.debug.xcconfig */,
+				911FC3A997AC880705A11433 /* Pods-iShot Controller.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EB603E121E78EB900150F8C /* Build configuration list for PBXNativeTarget "iShot Controller" */;
 			buildPhases = (
+				27F6FA7F95855BFC322CC26A /* [CP] Check Pods Manifest.lock */,
 				4EB603CB21E78EB800150F8C /* Sources */,
 				4EB603CC21E78EB800150F8C /* Frameworks */,
 				4EB603CD21E78EB800150F8C /* Resources */,
+				D62AA25B66D31E1882EC0D85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +192,7 @@
 				TargetAttributes = {
 					4EB603CE21E78EB800150F8C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,34 +220,97 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB603DD21E78EB900150F8C /* LaunchScreen.storyboard in Resources */,
+				4EB603EB21E78FD900150F8C /* Classes in Resources */,
 				4EB603DA21E78EB900150F8C /* Assets.xcassets in Resources */,
-				4EB603D821E78EB800150F8C /* Main.storyboard in Resources */,
+				4EB603E521E78EC100150F8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F6FA7F95855BFC322CC26A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iShot Controller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D62AA25B66D31E1882EC0D85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iShot Controller/Pods-iShot Controller-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Moscapsule/Moscapsule.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moscapsule.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iShot Controller/Pods-iShot Controller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4EB603CB21E78EB800150F8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB6040721E790F200150F8C /* Sensor Class.swift in Sources */,
+				4EB6041121E790F200150F8C /* ZoomParser.swift in Sources */,
 				4EB603D521E78EB800150F8C /* ViewController.swift in Sources */,
+				4EB6040621E790F200150F8C /* Login.swift in Sources */,
+				4EB603EF21E78FF300150F8C /* MainVC.swift in Sources */,
+				4EB6040C21E790F200150F8C /* Extension_String.swift in Sources */,
+				4EB6040E21E790F200150F8C /* HttpService.swift in Sources */,
+				4EB6040321E790F200150F8C /* H264.swift in Sources */,
+				4EB6040521E790F200150F8C /* z3Request.swift in Sources */,
+				4EB6041221E790F200150F8C /* InfoController.swift in Sources */,
+				4EB6040221E790F200150F8C /* VideoInput Class.swift in Sources */,
+				4EB6041521E7912500150F8C /* Global Variables.swift in Sources */,
+				4EB603E921E78EE200150F8C /* vlcWrapper.m in Sources */,
+				4EB6040D21E790F200150F8C /* CameraClass.swift in Sources */,
+				4EB603ED21E78FEB00150F8C /* BottomController.swift in Sources */,
+				4EB6040921E790F200150F8C /* ZoomViewController.swift in Sources */,
+				4EB6041021E790F200150F8C /* LoadingView.swift in Sources */,
 				4EB603D321E78EB800150F8C /* AppDelegate.swift in Sources */,
+				4EB6040821E790F200150F8C /* BasicCommands.swift in Sources */,
+				4EB6040421E790F200150F8C /* z3Camera.swift in Sources */,
+				4EB6040F21E790F200150F8C /* Z3ZoomViewController.swift in Sources */,
+				4EB6040A21E790F200150F8C /* CamController.swift in Sources */,
+				4EB6041321E790F200150F8C /* LoginTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4EB603D621E78EB800150F8C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4EB603D721E78EB800150F8C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4EB603DB21E78EB900150F8C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,8 +440,10 @@
 		};
 		4EB603E221E78EB900150F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5820002505D9E103EA8D7D2 /* Pods-iShot Controller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XU436FT9J;
 				INFOPLIST_FILE = "iShot Controller/Info.plist";
@@ -291,6 +453,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Intertest.iShot-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iShot Controller-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +462,10 @@
 		};
 		4EB603E321E78EB900150F8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911FC3A997AC880705A11433 /* Pods-iShot Controller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6XU436FT9J;
 				INFOPLIST_FILE = "iShot Controller/Info.plist";
@@ -309,6 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Intertest.iShot-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iShot Controller-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
